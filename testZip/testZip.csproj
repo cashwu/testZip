@@ -253,6 +253,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\testZip.Entity\testZip.Entity.csproj">
+      <Project>{b6001758-1917-479f-bbec-c98d857b948f}</Project>
+      <Name>testZip.Entity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\testZip.Service\testZip.Service.csproj">
       <Project>{9475f67a-a706-4a04-a381-4e712a1a26a4}</Project>
       <Name>testZip.Service</Name>
