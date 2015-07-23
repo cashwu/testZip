@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testZip", "testZip\testZip.csproj", "{A20E1246-5582-4F9F-946E-1187C3AFEF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testZip.Service", "testZip.Service\testZip.Service.csproj", "{9475F67A-A706-4A04-A381-4E712A1A26A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testZip.Entity", "testZip.Entity\testZip.Entity.csproj", "{B6001758-1917-479F-BBEC-C98D857B948F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A20E1246-5582-4F9F-946E-1187C3AFEF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20E1246-5582-4F9F-946E-1187C3AFEF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20E1246-5582-4F9F-946E-1187C3AFEF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20E1246-5582-4F9F-946E-1187C3AFEF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9475F67A-A706-4A04-A381-4E712A1A26A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9475F67A-A706-4A04-A381-4E712A1A26A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9475F67A-A706-4A04-A381-4E712A1A26A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9475F67A-A706-4A04-A381-4E712A1A26A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6001758-1917-479F-BBEC-C98D857B948F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6001758-1917-479F-BBEC-C98D857B948F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6001758-1917-479F-BBEC-C98D857B948F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6001758-1917-479F-BBEC-C98D857B948F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
