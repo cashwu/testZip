@@ -9,11 +9,6 @@ namespace testZip.Service
     {
         private readonly ICMSDbContext db;
 
-        public ProductService()
-        {
-            this.db = new CMSDbContext();
-        }
-
         public ProductService(ICMSDbContext db)
         {
             this.db = db;

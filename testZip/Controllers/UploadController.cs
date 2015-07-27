@@ -11,13 +11,6 @@ namespace testZip.Controllers
         private readonly IBlobService blobService;
         private readonly IZipService zipService;
 
-        public UploadController()
-        {
-            this.productService = new ProductService();
-            this.blobService = new BlobService();
-            this.zipService = new ZipService();
-        }
-
         public UploadController(
             IProductService productService,
             IBlobService blobService,
