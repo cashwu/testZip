@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testZip.Service", "testZip.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testZip.Entity", "testZip.Entity\testZip.Entity.csproj", "{B6001758-1917-479F-BBEC-C98D857B948F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testZip.Test", "testZip.Test\testZip.Test.csproj", "{505FDCB9-E94C-4960-A3DC-7692ECB80A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testZip.Service.Test", "testZip.Service.Test\testZip.Service.Test.csproj", "{31B3528E-D637-40FC-87C6-90100BD69B18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B6001758-1917-479F-BBEC-C98D857B948F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6001758-1917-479F-BBEC-C98D857B948F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6001758-1917-479F-BBEC-C98D857B948F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505FDCB9-E94C-4960-A3DC-7692ECB80A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505FDCB9-E94C-4960-A3DC-7692ECB80A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505FDCB9-E94C-4960-A3DC-7692ECB80A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505FDCB9-E94C-4960-A3DC-7692ECB80A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B3528E-D637-40FC-87C6-90100BD69B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B3528E-D637-40FC-87C6-90100BD69B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B3528E-D637-40FC-87C6-90100BD69B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B3528E-D637-40FC-87C6-90100BD69B18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

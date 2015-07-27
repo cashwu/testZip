@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using testZip.Service;
@@ -19,7 +17,17 @@ namespace testZip.Controllers
             this.blobService = new BlobService();
             this.zipService = new ZipService();
         }
-        // GET: Upload
+
+        public UploadController(
+            IProductService productService,
+            IBlobService blobService,
+            IZipService zipService)
+        {
+            this.productService = productService;
+            this.blobService = blobService;
+            this.zipService = zipService;
+        }
+
         public ActionResult Index()
         {
             return View();
